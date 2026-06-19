@@ -1,9 +1,9 @@
 # f3bypass
 
 [![Built With Python](https://img.shields.io/badge/Built%20With-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Made with DeepSeek](https://img.shields.io/badge/Made%20with-DeepSeek-4D6BFE?logo=deepseek&logoColor=white)](https://www.deepseek.com/)
 [![Security Testing](https://img.shields.io/badge/Purpose-Security%20Testing-red)](https://github.com)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Awesome DeepSeek Integrations](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/deepseek-ai/awesome-deepseek-integration)
 
 A fast and lightweight 403 bypass testing tool for authorized security assessments.
