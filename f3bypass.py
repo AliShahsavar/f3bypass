@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 f3bypass v1.0 - Advanced 403 Bypass Testing Tool
-Enhanced version with more techniques and better performance
+Author: Ali Shahsavar
 """
 
 import argparse
