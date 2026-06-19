@@ -1,10 +1,8 @@
-A fast and lightweight 403 bypass testing tool for authorized security assessments.
 
 # f3bypass
 ![Built With Python](https://img.shields.io/badge/Built%20With-Python-3776AB?logo=python&logoColor=white)
 ![Security Testing](https://img.shields.io/badge/Purpose-Security%20Testing-red)
 A fast and lightweight 403 bypass testing tool for authorized security assessments.
-
 `f3bypass` automates common access-control bypass techniques and helps security researchers identify misconfigured web servers, reverse proxies, load balancers, and authorization mechanisms that may incorrectly expose restricted resources.
 
 ## Features
