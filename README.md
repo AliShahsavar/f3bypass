@@ -1,6 +1,7 @@
 
 # f3bypass
 ![Built With Python](https://img.shields.io/badge/Built%20With-Python-3776AB?logo=python&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 ![Security Testing](https://img.shields.io/badge/Purpose-Security%20Testing-red)<br>
 
 A fast and lightweight 403 bypass testing tool for authorized security assessments.
