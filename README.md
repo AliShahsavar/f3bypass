@@ -1,29 +1,35 @@
-
 # f3bypass
-![Built With Python](https://img.shields.io/badge/Built%20With-Python-3776AB?logo=python&logoColor=white)
-![MIT License](https://img.shields.io/badge/License-MIT-green)
-[![Homepage](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true)](https://www.deepseek.com/)
-![Security Testing](https://img.shields.io/badge/Purpose-Security%20Testing-red)<br>
+
+[![Built With Python](https://img.shields.io/badge/Built%20With-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Made with DeepSeek](https://img.shields.io/badge/Made%20with-DeepSeek-4D6BFE?logo=deepseek&logoColor=white)](https://www.deepseek.com/)
+[![Security Testing](https://img.shields.io/badge/Purpose-Security%20Testing-red)](https://github.com)
+[![Awesome DeepSeek Integrations](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/deepseek-ai/awesome-deepseek-integration)
 
 A fast and lightweight 403 bypass testing tool for authorized security assessments.
+
 `f3bypass` automates common access-control bypass techniques and helps security researchers identify misconfigured web servers, reverse proxies, load balancers, and authorization mechanisms that may incorrectly expose restricted resources.
+
+---
 
 ## Features
 
-* Path manipulation testing
-* Header-based bypass testing
-* HTTP method testing
-* Protocol switching tests (HTTP ↔ HTTPS)
-* User-Agent spoofing
-* Content-Type manipulation
-* Host header testing
-* CRLF injection testing
-* Null-byte injection testing
-* IPv4 and IPv6 header variations
-* Multi-threaded scanning
-* Colored terminal output
-* Automatic baseline comparison
-* Result export support
+- Path manipulation testing
+- Header-based bypass testing
+- HTTP method testing
+- Protocol switching tests (HTTP ↔ HTTPS)
+- User-Agent spoofing
+- Content-Type manipulation
+- Host header testing
+- CRLF injection testing
+- Null-byte injection testing
+- IPv4 and IPv6 header variations
+- Multi-threaded scanning
+- Colored terminal output
+- Automatic baseline comparison
+- Result export support
+
+---
 
 ## Installation
 
@@ -45,6 +51,8 @@ Or install manually:
 ```bash
 pip install requests urllib3
 ```
+
+---
 
 ## Usage
 
@@ -78,6 +86,8 @@ python3 f3bypass.py https://target.com/admin --all
 python3 f3bypass.py https://target.com/admin -o results.txt
 ```
 
+---
+
 ## Available Options
 
 ```text
@@ -99,6 +109,8 @@ python3 f3bypass.py https://target.com/admin -o results.txt
 --skip-ipv6            Skip IPv6 header tests
 ```
 
+---
+
 ## Example
 
 ```bash
@@ -116,11 +128,15 @@ Example output:
 [403] [PATH] Path Bypass: /secret/
 ```
 
+---
+
 ## How It Works
 
 The tool first performs a baseline request to determine the original response status.
 
 It then generates hundreds of access-control bypass variations and compares the results against the baseline. Responses that differ from the original access-denied response may indicate a potential authorization bypass and should be manually verified.
+
+---
 
 ## Disclaimer
 
@@ -134,6 +150,8 @@ This tool is intended for:
 Only test systems you own or have explicit permission to assess.
 
 The author assumes no responsibility for misuse or damage caused by this software.
+
+---
 
 ## License
 
